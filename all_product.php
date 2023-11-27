@@ -13,6 +13,8 @@ while ($data = mysqli_fetch_assoc($cata_info)) {
 
 
 
+
+
 $pdt_info = $obj->view_all_product();
 
 $pdt_datas = array();

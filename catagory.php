@@ -8,6 +8,8 @@ while ($data = mysqli_fetch_assoc($cata_info)) {
     $cataDatas[] = $data;
 }
 
+
+
 if (isset($_GET['status'])) {
     $cataId = $_GET['id'];
     if ($_GET['status'] == 'catView') {
