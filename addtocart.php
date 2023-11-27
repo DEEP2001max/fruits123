@@ -3,6 +3,7 @@ session_start();
 include_once("admin/class/adminback.php");
 $obj = new adminback();
 
+
 $cata_info = $obj->p_display_catagory();
 $cataDatas = array();
 while ($data = mysqli_fetch_assoc($cata_info)) {
